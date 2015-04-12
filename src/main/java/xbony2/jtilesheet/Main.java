@@ -1,11 +1,18 @@
 package xbony2.jtilesheet;
 
-public class Main/* extends Application*/ {
+import javafx.application.*;
+import javafx.event.*;
+import javafx.scene.*;
+import javafx.scene.control.*;
+import javafx.scene.layout.*;
+import javafx.stage.*;
+
+public class Main extends Application {
 	public static void main(String[] args){
-		//launch(args);
+		launch(args);
 	}
 
-	/*@Override
+	@Override
 	public void start(Stage pStage){
 		Button btn = new Button();
     	btn.setText("Say 'Hello World'");
@@ -24,5 +31,5 @@ public class Main/* extends Application*/ {
     	pStage.setTitle("Hello World!");
     	pStage.setScene(scene);
     	pStage.show();
-	}*/
+	}
 }
